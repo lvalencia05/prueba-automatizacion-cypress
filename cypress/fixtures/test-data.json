@@ -1,0 +1,17 @@
+
+{
+  "baseUrl": "https://www.selaski.com/public/reports/shared?token=cdexd34d7a31da5257e1d5f7af80e21995f0dfen5",
+  "validPin": {
+    "digit1": "5",
+    "digit2": "5",
+    "digit3": "6",
+    "digit4": "9"
+  },
+  "invalidPin": "0",
+  "validShipment": "Prueba 1",
+  "validShipmentExpected": {
+    "title": "Prueba 1-02",
+    "text": "Prueba 1-02"
+  },
+  "nonExistentShipment": "No-3546"
+}
