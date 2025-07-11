@@ -1,0 +1,9 @@
+# Cypress
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+*.log

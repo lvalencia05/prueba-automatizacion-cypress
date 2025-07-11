@@ -1,3 +1,15 @@
+/**
+
+PRUEBAS DE AUTENTICACIÓN Y BÚSQUEDA
+Contiene 3 casos de prueba end-to-end:
+Login exitoso + búsqueda válida
+Error con PIN inválido
+Búsqueda sin resultados
+Configuración:
+beforeEach: Visita la URL y espera el campo de PIN
+afterEach: Captura screenshot si el test pasa
+Datos: Importa test-data.json para valores de prueba */
+
 describe("Prueba Técnica: Autenticación y Búsqueda de Embarque", () => {
   const testData = require('../fixtures/test-data.json');
 
