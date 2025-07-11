@@ -12,7 +12,7 @@ Navegador Chrome o Edge instalado
 Clonar el repositorio:
 
 bash
-git clone [url-del-repositorio]
+git clone [https://github.com/lvalencia05/prueba-automatizacion-cypress.git]
 Instalar dependencias:
 
 bash
@@ -31,11 +31,11 @@ npx cypress run
 
 🔍 Casos de Prueba
 
-#	Nombre|	                                                             | Descripción
+#	Nombre	                                                            Descripción
 1	Login exitoso + búsqueda válida	- Autenticación con PIN válido
                                                                         - Validación del dashboard
                                                                         - Búsqueda y validación de embarque existente
-2	Error con PIN inválido	                                              - Autenticación fallida
+2	Error con PIN inválido	                                            - Autenticación fallida
                                                                         - Validación de mensaje de error
 3	Búsqueda sin resultados	- Búsqueda de embarque inexistente
                                                                         - Validación de mensaje "Sin datos para mostrar"
